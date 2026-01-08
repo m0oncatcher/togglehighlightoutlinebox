@@ -1,0 +1,12 @@
+{
+  "modmenu": {
+    "name": "Toggle Highlight Outline Box",
+    "description": "Client mod to disable the block outline with a keybind (B for default)",
+    "authors": [
+      "mooncatcher"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "iconPath": "assets/togglehighlightoutlinebox/icon.png"
+  }
+}
