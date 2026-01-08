@@ -1,0 +1,15 @@
+{
+  "game_versions": ["1.21.11"],
+  "loaders": ["fabric"],
+  "project_id": "",
+  "title": "Toggle Highlight Outline Box",
+  "description": "Minecraft Fabric mod to toggle the block outline with a keybind.",
+  "body": "",
+  "icon_path": "assets/togglehighlightoutlinebox/icon.png",
+  "authors": ["mooncatcher"],
+  "dependencies": [
+    {"project_id": "fabric-loader", "version_range": ">=0.18.1"},
+    {"project_id": "fabric-api", "version_range": "*"},
+    {"project_id": "minecraft", "version_range": "1.21.11"}
+  ]
+}
