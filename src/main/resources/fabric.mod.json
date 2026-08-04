@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "togglehighlightoutlinebox",
-  "version": ">=26.1",
+  "version": ">=26.2",
   "name": "Toggle Highlight Outline Box",
   "description": "Client mod to disable the block outline with a keybind (B for default)",
   "authors": [ "mooncatcher" ],
@@ -21,7 +21,7 @@
 
   "depends": {
     "fabricloader": ">=0.17.3",
-    "minecraft": ">=26.1",
+    "minecraft": ">=26.2",
     "java": ">=21",
     "fabric-api": "*",
     "modmenu": "*"
