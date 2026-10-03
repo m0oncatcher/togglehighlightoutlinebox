@@ -19,7 +19,6 @@ public class NoBlockOutlineMixin {
             SubmitNodeCollector submitNodeCollector,
             LevelRenderState levelRenderState,
             CallbackInfo ci) {
-
         if (CommonMod.disableOutline) {
             ci.cancel();
         }

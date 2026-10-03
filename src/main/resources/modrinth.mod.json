@@ -1,5 +1,5 @@
 {
-  "game_versions": ["26.1.x"],
+  "game_versions": ["26.3.x"],
   "loaders": ["fabric"],
   "project_id": "",
   "title": "Toggle Highlight Outline Box",

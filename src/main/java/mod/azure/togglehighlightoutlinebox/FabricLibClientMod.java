@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keymapping.v1.KeyMappingHelper;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.resources.Identifier;
-import org.lwjgl.glfw.GLFW;
 
 public class FabricLibClientMod implements ClientModInitializer {
 
@@ -19,8 +18,8 @@ public class FabricLibClientMod implements ClientModInitializer {
     public void onInitializeClient() {
         Keybind.TOGGLE_VIEW = KeyMappingHelper.registerKeyMapping(new KeyMapping(
                 "key.togglehighlightoutlinebox.toggle_view",
-                InputConstants.Type.KEYSYM,
-                GLFW.GLFW_KEY_B,
+                InputConstants.Type.KEYBOARD,
+                InputConstants.KEY_B,
                 CATEGORY
         ));
 
